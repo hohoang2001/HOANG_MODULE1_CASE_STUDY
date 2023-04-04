@@ -1,0 +1,425 @@
+.produc {
+
+    width: 250px;
+    text-align: center;
+    height: 450px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    position: relative;
+    box-shadow: 0 3px 6px -4px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+    bottom: 0;
+    overflow: hidden;
+
+
+
+}
+
+.produc:hover {
+    box-shadow: 0px 3px 6px -4px rgba(0, 0, 0, .16), 5px 5px 10px rgba(0, 0, 0, .23);
+    bottom: 10px;
+    transition: all .9s;
+
+}
+
+.produc:hover .km {
+    right: 75px;
+    transition: all .5s;
+}
+
+.produc:hover .img1 {
+    display: inline !important;
+}
+
+.produc:hover .img2 {
+    display: none !important;
+    transition-duration: .9s;
+}
+
+
+.km {
+    /* background-color: red;
+padding: 10px; 
+border-radius: 20px;  
+display: inline-block;
+ */
+    padding: 10px;
+    border-radius: 100px;
+    position: relative;
+    right: 200px;
+    top: 60px;
+    background-color: red;
+    color: azure;
+}
+
+.name {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+
+}
+
+.namee p a {
+    color: brown;
+    text-align: center;
+    position: relative;
+    bottom: 18px;
+}
+
+.small {
+    font-weight: bold;
+    position: relative;
+    bottom: 30px;
+}
+
+.demi {
+    position: relative;
+    bottom: 85px;
+}
+
+.cick {
+    position: relative;
+    bottom: 105px;
+}
+
+h4 a {
+    color: brown;
+}
+
+h3 a {
+    background-color: brown;
+    color: azure;
+    padding-inline: 60px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    display: inline-block;
+    margin: 5px;
+}
+
+.demo {
+    position: relative;
+    bottom: 20px;
+}
+
+.demii {
+    position: relative;
+    bottom: 40px;
+}
+
+.spans {
+    background-color: brown;
+    display: inline-block;
+    padding: 10px, 5px, 10px, 5px;
+    position: relative;
+}
+
+/* span::before{
+    content: '';
+    background: url('https://muaxe.minhlongmoto.com/wp-content/uploads/2020/04/background-title.png');
+    position: absolute;
+    height: 35px;
+    width: 50px;
+    right: 20px;
+} */
+.radius {
+
+    position: relative;
+    left: 200px;
+    width: 1000px;
+    height: 100px;
+}
+
+.text {
+    width: 500px;
+    height: 24px;
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+    overflow: hidden;
+    
+}
+
+.image {
+    width: 200px;
+    height: 70px;
+    position: relative;
+    top: 5px;
+}
+
+.cart {
+    background-color: brown;
+    padding: 6px 25px 6px 25px;
+    border-radius: 100px;
+    color: white;
+    position: relative;
+    bottom: 30px;
+    left: 120px;
+
+}
+
+a {
+    margin: 10px;
+    position: relative;
+
+}
+
+.tieude a {
+    border-right: solid 1px #C7C7C7;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    padding-right: 10px;
+    color: rgba(102, 102, 102, 85);
+}
+
+
+.tieude1 {
+
+    width: 101%;
+
+    background-color: #D9D9D9;
+    position: relative;
+    right: 16px;
+
+
+}
+
+#carl {
+    position: relative;
+
+    width: 80%;
+    text-align: center;
+
+
+
+}
+
+body {
+
+    width: auto;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.forn {
+    width: auto;
+    position: relative;
+    right: 40px;
+}
+
+.minhlong {
+    width: 100%;
+}
+
+.imagecarl img {
+    position: relative;
+    height: 100px;
+    margin: 40px;
+   
+}
+
+.loaixe img {
+    margin: 10px;
+}
+
+.tieude a:hover {
+    color: black;
+}
+
+i {
+    padding: 3px;
+    color: white;
+    font-size: larger;
+}
+
+.forn button {
+    background-color: brown;
+    border: solid 1px brown;
+    position: relative;
+    bottom: 28px;
+    height: 30px;
+    left: 25px;
+
+}
+
+.top {
+    width: 100%;
+    text-align: center;
+    background-color: brown;
+}
+
+.icons i {
+    padding: 0px;
+    width: 5px;
+    font-size: .9em;
+}
+
+.cart i {
+    font-size: .9em;
+}
+
+.timkiem1 {
+    width: 505px;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    right: 0;
+    margin: 55px 0 0 235px;
+    background-color:  rgba(255,255,255,.95);
+}
+
+
+
+.searchImg {
+    width: 40px;
+    border-radius: 4px 4px 4px 4px;
+    align-content: center;
+}
+
+.timkiem2 {
+    width: auto;
+    display: flex;
+        border-bottom: 1px solid rgba(0,0,0,.05)
+}
+
+.timkiem2:hover {
+    background-color: #e9e8e8;
+}
+
+.searchName {
+    margin-right: 140px;
+    margin-left: 10px;
+}
+
+.searchCrice {
+    width: auto;
+}
+
+
+.add {
+    left: 0;
+   
+}
+
+
+.add button {
+    border: solid 1px brown;
+    background-color: brown;
+    color: white;
+    position: relative;
+  
+
+}
+
+.Moreproducts {
+    border: solid 1px red;
+
+    background-color: brown;
+    color: white;
+    position: relative;
+    display: none;
+   
+    position: absolute;
+    z-index: 1;
+   
+ 
+  
+}
+
+.themsp {
+    width: 300px;
+    position: relative;
+    
+  
+}
+
+.delete {
+    position: relative;
+    bottom: 33px;
+    right: 70px;
+}
+
+.edit {
+    position: relative;
+    bottom: 33px;
+    left: 50px;
+}
+
+.Edits {
+    background-color: brown;
+    color: white;
+    width: 230px;
+    float: left;
+    position: fixed;
+    top: 20px;
+    left: 15px;
+    display: none;
+    z-index: 1;
+    width: 280px;
+}
+.idd {
+    background-color: brown;
+    border-radius: 100%;
+    color: white;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    right: 60px;
+}
+.edit button{
+    border: solid 1px brown;
+    background-color: brown;
+    color: white;
+    width: 40px;
+    height: 30px;
+    border-radius: 50px
+}
+.delete button{
+    border: solid 1px brown;
+    background-color: brown;
+    color: white;
+    width: 50px;
+    height: 30px;
+    border-radius: 50px
+}
+.row{
+    float: right;
+    
+}
+/* .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+} */
+
+.col-75 input{
+   inline-size: 100px;
+   width: 150px;
+}
+.chinh{
+    float: right;
+}
+ 
+.phu1{
+    inline-size: 100px;
+    width: 150px;
+}
+.dulieu2{
+    width: 200px;
+}
+.idd{
+    display: none;
+}
+.bocuc{
+    width: 100%;
+}
